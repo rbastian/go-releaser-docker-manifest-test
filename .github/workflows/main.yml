@@ -4,6 +4,7 @@ name: goreleaser
 on:
   pull_request:
   push:
+  workflow_dispatch:
 
 jobs:
   goreleaser:
